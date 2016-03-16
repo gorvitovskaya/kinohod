@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+    margin:0; 
+    padding:0; 
+}
+
+body,td,th {
+    font-family: Verdana, Arial, sans-serif;
+    color: #000;
+    font-size: 12px;
+}
+
+a:link {
+    color: #225674;
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+    color: #225674;
+}
+a:hover {
+    text-decoration: underline;
+    color: #225674;
+}
+a:active {
+    text-decoration: none;
+    color: #225674;
+}
+
+a.popup {
+    cursor: pointer;
+}
+
+input, textarea {padding:2px; margin: 0;}
+
+table {
+    border-collapse: collapse;
+    empty-cells: show;
+}
+
+.ui-dialog-titlebar-close {
+    display: none;
+}
+.ui-widget-header a { color: #225674;}
